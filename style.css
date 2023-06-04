@@ -1,0 +1,39 @@
+/* simple styling for the body for alignment of elements*/
+body {
+    
+    background: indianred;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /*--Button Styling--*/
+   .btn {
+    position: relative;
+    color: #330f75;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: #D1C4E9 1px 0 10px;
+    height: 175px;
+    width: 175px;
+    border: solid 1px #D1C4E9;
+    border-radius: 175px;
+  }
+
+  /* effect of button on hover */
+ .btn:hover:before {
+    width: 85%;
+    height: 85%;
+  } 
+  
+  /* styling for the output */
+  #result {
+	font-size: 50px ;  
+	font-weight: 900;
+    padding:5px;
+    margin-left: 1px;  
+}
+ 
